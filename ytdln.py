@@ -15,9 +15,7 @@ loaders = [ 'https://media.tenor.com/PlT4DtiUuvYAAAAM/i-get-the-job-done-cat.gif
 
 
 def start(update: Update, context: CallbackContext):
-    user = update.message.from_user
-    FirstNAME = str(user['first_name'])
-    update.message.reply_text(str(f"Hello {FirstNAME}, Just Send Me The link of YouTube Video you want to Download "))
+    update.message.reply_text("Hello There, Just Send Me The link of YouTube Video you want to Download ")
 
 
 
